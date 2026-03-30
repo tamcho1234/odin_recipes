@@ -31,6 +31,12 @@ h3 {
     padding: 
 }
 
+h4 {
+    background-color: lightblue;
+    color: rgb(63, 61, 61);
+    
+}
+
 h7 {
     font-size: 12px;
     color: grey;
@@ -53,6 +59,11 @@ li {
 
 a{
     text-decoration: none;
+}
+
+img {
+    border: 10px solid gold;
+    border-radius: 20px;
 }
 
 .full_card {
