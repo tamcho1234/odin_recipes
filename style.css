@@ -1,6 +1,7 @@
 * {
     background-color: lightyellow;
     text-align: center;
+    text-anchor: middle;
 }
 
 body {
@@ -19,9 +20,35 @@ h2 {
 }
 
 h3 {
-    color: black;
-    background-color: lightblue;
+    color: white;
+    background-color: lightsalmon;
     text-decoration-line: none;
+    border: 2px solid grey;
+    border-radius: 5px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 
+}
+
+h7 {
+    font-size: 12px;
+    color: grey;
+
+    border: 1px grey solid;
+    border-radius: 15px;
+    padding: 2px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style-type: none;
 }
 
 a{
@@ -42,6 +69,7 @@ a{
         background-color: rgb(212, 244, 255);
         color: darkslategrey;
     }
+
 }
 
 
@@ -65,11 +93,30 @@ a{
     object-fit: cover;
     border-radius: 20px;
 }
-ul {
-    padding: 0;
-    margin: 0;
+
+.ingred_card {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-anchor:middle;
 }
 
-li {
-    list-style-type: none;
+.instr_card {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+
+.instr_card li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    text-align: left;
+
+
 }
