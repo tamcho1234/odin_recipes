@@ -61,7 +61,7 @@ ul {
 li {
     list-style-type: none;
     background-color: lightblue;
-    list-style-type:circle;
+    list-style-type:none;
     list-style-position: inside;
 }
 
@@ -123,11 +123,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     background-color: lightblue;
+    padding-bottom: 20px;
 }
 
-.instr_card {
-    padding-bottom: 10px;
-}
 
 footer h5 {
     /* position the footer at the bottom of the page */
@@ -156,4 +154,10 @@ footer h5 {
     text-decoration-line: underline;
     color: black;
     background-color: transparent;
+}
+
+.ingred_card li {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 2px;
 }
