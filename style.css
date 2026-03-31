@@ -1,22 +1,25 @@
 * {
-    background-color: lightyellow;
+
     text-align: center;
     text-anchor: middle;
+
 }
 
 body {
     font-family: sans-serif, cambria, serif;
-
+    background-color: lightyellow;
 }
 h1 {
     text-align:center;
-    
+    color:rgb(0, 0, 0);
+
 }
 
 h2 {
-
     font-weight: 800;
     text-anchor: middle;
+    color : black;
+
 }
 
 h3 {
@@ -28,49 +31,63 @@ h3 {
     width: 400px;
     margin-left: auto;
     margin-right: auto;
-    padding: 
+    padding: 10px;
 }
 
 h4 {
-    background-color: lightblue;
-    color: rgb(63, 61, 61);
+    background-color: transparent;
+    color: white;
     
 }
 
 h7 {
     font-size: 12px;
-    color: grey;
+    color: white;
 
     border: 1px grey solid;
     border-radius: 15px;
     padding: 2px;
     margin-bottom: 5px;
     text-align: center;
+    background-color: orange
 }
 
 ul {
     padding: 0;
     margin: 0;
+    border-radius: 20px;
 }
 
 li {
     list-style-type: none;
+    background-color: lightblue;
+    list-style-type:circle;
+    list-style-position: inside;
 }
 
 a{
     text-decoration: none;
+    background-color: lightblue;
+    color: red;
 }
 
 img {
-    border: 10px solid gold;
+    border: 1px solid gold;
     border-radius: 20px;
 }
 
+.logo {
+    width: 400px;
+    height: auto;
+    border:none;
+}
 .full_card {
     display: inline-block;
     width: 200px;
-    height: 500px;
-    background-color: lightblue;
+    height: 350px;
+    background-image: url('../img/card_background.png');
+    background-position: center;
+    background-size: cover;
     margin: 10px;
     text-align: center;
     border-radius: 50px;
@@ -88,16 +105,46 @@ img {
     color: white;
     text-decoration: none;
     background-color: blue;
-    text-align: center;
     border-radius: 20px;
     padding: 12px;
-    width: auto;
+    width: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
 
 }
 
+
+.instr_card, .ingred_card {
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    width:700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightblue;
+}
+
+.instr_card {
+    padding-bottom: 10px;
+}
+
+footer h5 {
+    /* position the footer at the bottom of the page */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.instr_card li {
+    list-style-type: decimal;
+    list-style-position: inside;
+    text-align: left;
+}
+
 .full_card img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     display: inline;
     margin-top: 20px;
     /*crop the picture to specific pixel*/
@@ -105,29 +152,8 @@ img {
     border-radius: 20px;
 }
 
-.ingred_card {
-    border: 2px solid black;
-    border-radius: 20px;
-    margin-bottom: 20px;
-    width:700px;
-    margin-left: auto;
-    margin-right: auto;
-    text-anchor:middle;
-}
-
-.instr_card {
-    border: 2px solid black;
-    border-radius: 20px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 10px;
-}
-
-.instr_card li {
-    list-style-type: decimal;
-    list-style-position: inside;
-    text-align: left;
-
-
+.instr_card h2, .ingred_card h2 {
+    text-decoration-line: underline;
+    color: black;
+    background-color: transparent;
 }
