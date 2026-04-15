@@ -44,7 +44,15 @@ ul li a {
     background-color: #1F2937;
     margin: 0px;
     padding: 0px;
-    gap: 400px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
 }
 
 .logo {
@@ -54,6 +62,16 @@ ul li a {
     height: 100px;
     padding: 0px;
     margin: 0px;
+}
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+    text-align: center;
+    background-color: #e5e7eb ;
 }
 
 .hero-container {
@@ -76,6 +94,61 @@ ul li a {
     flex:none;
 }
 
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 800px;
+    height: 200px;
+    margin: 50px auto;
+
+}
+
+.cta .cta-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    color: white;
+    wrap-con
+    
+}
+
+.cta .cta-text h2 {
+    font-size: 24px;
+    font-weight: 900;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cta .cta-text p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+.cta a {
+    border: white solid 2px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 50px;
+    width: 200px;
+    padding: 8px 20px;
+
+}
+
+.category-info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+
+}
+
 .category-info .category {
     display: flex;
     flex-direction: row;
@@ -85,6 +158,34 @@ ul li a {
     flex-wrap: wrap;
 }
 
+.testimonial .testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 800px; 
+    text-align: center;
+    font-size: 36px;
+
+}
+
+.testimonial-text p{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    
+
+}
+
+.testimonial-text h4 {
+    text-align: right;
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
 .hero-text h1 {
     flex: none;
@@ -141,3 +242,4 @@ ul li a {
     padding: 0px; 
 
 }
+
